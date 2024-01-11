@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #FFF;
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-color:#2F2E2E;
+	overflow-x: hidden;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+
+}
+#home{
+	height: 100vh;
+	width: 100%;
+}
+.logo{
+	/* width: 411px;  */
+	/* height: 149px;  */
+	left: 83px;
+	top: 34px;
+	position: absolute; 
+	color: white;
+	font-size: 66px; 
+	font-family: Inter; 
+	font-weight: 700; 
+	word-wrap: break-word
+}
+.nav{
+	width: 07px; 
+	height: 31px; 
+	left: 508px; 
+	top: 93px; 
+	position: absolute;
+	justify-content: flex-start; 
+	align-items: flex-start; 
+	gap: 36px; 
+	display: inline-flex
+}
+.nav a{
+	margin-top: -22px;
+	width: 131px; 
+	height: 31px; 
+	color: white; 
+	font-size: 18px; 
+	font-family: 'Inter'; 
+	font-weight: 700;
+	/* word-wrap: break-word; */
+	text-transform: uppercase;
+}
+.content1{
+	margin-top:-45px ;
+	width: 514px; 
+	height: 126px; 
+	left: 83px; 
+	top: 243px; 
+	position: absolute;
+}
+.content1>h1{
+	color: white; 
+	font-size: 80px; 
+	font-family: Inter; 
+	font-weight: 700;
+	word-wrap: break-word; 
+}
+.content1>h1>span{
+	color: #EFE0BF;
+}
+.content1>h2{
+	width: 640px; 
+	height: 75px; 
+	position: relative; 
+	color: #9E8B7D;
+	font-size: 64px; 
+	font-family: Inter; 
+	font-weight: 700; 
+	word-wrap: break-word
+}
+.content2{
+	
+	width: 620px; 
+	height: 302px; 
+	left: 83px; 
+	top: 400px; 
+	position: absolute;
+	color: white; 
+	font-size: 24px; 
+	font-family: Inter; 
+	font-weight: 500; 
+	word-wrap: break-word
+}
+.btn {
+	display: flex;
+}
+.btn button{
+	width: 214px; 
+	height: 69px; 
+	position: absolute; 
+	background: #9E8B7D; 
+	border-radius: 5px;
+	border: 1px solid #9E8B7D;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: inter;
+	transition: all ease 0.5s;
+}
+#btn1{
+	left: 126px; 
+	top: 555px; 
+}
+#btn2{
+	left: 432px; 
+	top: 555px;
+}
+.btn>button:hover{
+	background-color: transparent;
+}
+
+.jump{
+	position: relative;
+	left:90%;
+	top:90vh;
+	
+	
+	
+}
+.jump button{
+	color: #ef9e9e;
+	background: #c0b0b0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+#about{
+	height: 100vh;
+	width: 100%;
+	background-color: #efdfbe;
+}
+#portfolio{
+	height: 100vh;
+	width:100%;
+	background-color:  #c0b7a6;
+}
+#contact{
+	height: 100vh;
+	width:100%;
+	background-color:  #8c7e63;
+}
+#services{
+	height: 100vh;
+	width:100%;
+	background-color:  #e5c68e;
+}
